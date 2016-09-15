@@ -59,7 +59,8 @@ RUN apt-get update && apt-get install -y --force-yes \
         vim \
         nano \
         net-tools \
-        pkg-config
+        pkg-config \
+        iputils-ping
 
 # remove load xdebug extension (only load on phpunit command)
 RUN sed -i 's/^/;/g' /etc/php/7.0/cli/conf.d/20-xdebug.ini

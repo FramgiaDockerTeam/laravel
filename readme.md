@@ -1,4 +1,4 @@
-# Full stack image for developing Laravel
+# Full stack image for developing and running Laravel project
 
 This image contains:
 - Ubuntu 16.04
